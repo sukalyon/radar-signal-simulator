@@ -1,0 +1,11 @@
+# Sanal ortamlar
+venv/
+.env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Paket Bilgileri
+*.egg-info/
