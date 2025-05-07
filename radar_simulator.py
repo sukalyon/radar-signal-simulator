@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 from distance_calculator import calculate_distance
 
-def generate_pulse(frequency=1e6, duration=1e-6, sampling_rate=1e9):
+def generate_pulse(frequency=1e6, duration=3e-6, sampling_rate=1e9):
     t = np.arange(0, duration, 1 / sampling_rate)
     pulse = np.sin(2 * np.pi * frequency * t)
     return t, pulse
